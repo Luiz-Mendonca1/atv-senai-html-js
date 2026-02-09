@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BattleFrogs | Mercenários e Magia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="conteudo">
+            <div class="logotipo">BATTLE<span>FROGS</span></div>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="menu-navegacao">
+                <ul class="lista-menu">
+                    <li><a href="#inicio">Contrato</a></li>
+                    <li><a href="#recursos">Mercenários</a></li>
+                    <li><a href="#depoimentos">Crônicas</a></li>
+                    <li><a href="#contato">Pombo-Correio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="secao-principal" id="inicio">
+        <div class="conteudo">
+            <div class="texto-principal">
+                <h1>Lâminas e Encantos de Aluguel</h1>
+                <p>O pântano ruge. Contrate a elite dos anfíbios para missões.</p>
+                <button class="botao-destaque">Assinar Contrato</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-recursos" id="recursos">
+        <div class="conteudo">
+            <h2>Grimório de Unidades</h2>
+            <div class="grade-recursos">
+                <div class="cartao-recurso">
+                    <img src="img/mage.jpg" alt="Mago">
+                    <h3>Mestre Arcano</h3>
+                    <p>Manipuladores do fluxo de mana elemental. Dizimam exércitos antes mesmo do primeiro salto.</p>
+                </div>
+                <div class="cartao-recurso">
+                    <img src="img/frogW.jpg" alt="Bestial">
+                    <h3>Vanguarda Bestial</h3>
+                    <p>Força bruta e resistência inabalável. O escudo vivo que protege o bando nos piores pântanos.</p>
+                </div>
+                <div class="cartao-recurso">
+                    <img src="img/shoter.jpg" alt="Atirador">
+                    <h3>Atirador Rugoso</h3>
+                    <p>Atiradores de precisão mística. Seus dardos nunca erram e o veneno é a última coisa que o inimigo sente.</p>
+                </div>
+                <div class="cartao-recurso">
+                    <img src="img/rei.jpg" alt="Mímico">
+                    <h3>Sombra Infiltrada</h3>
+                    <p>Mestres da enganação. Transmorfo ideal para sabotagens internas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-depoimentos" id="depoimentos">
+        <div class="conteudo">
+            <h2>Ecos das Vitórias</h2>
+            <div class="grade-depoimentos">
+                <div class="cartao-depoimento">
+                    <p>"Os Orcs colossais caíram perante o coaxar da morte. Ouro bem gasto."</p>
+                    <div class="nome-autor">- Rei João XI, Reino de Bragança</div>
+                </div>
+                <div class="cartao-depoimento">
+                    <p>"Nenhuma muralha de Ionia resistiu à infiltração desses mímicos."</p>
+                    <div class="nome-autor">- Rainha Maria IV, Vale de Arryn</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-contato" id="contato">
+        <div class="conteudo">
+            <h2>Convoque o Bando</h2>
+            <form class="formulario-contato">
+                <input type="text" placeholder="Nome do Lorde/Lady" required>
+                <input type="email" placeholder="Província de Origem" required>
+                <textarea placeholder="Detalhes da Missão (Recompensa em Ouro)" rows="5" required></textarea>
+                <button type="submit" class="botao-destaque">Enviar Pombo</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="conteudo">
+            <p>&copy; <span id="anoAtual"></span> Luiz Mendonça</p>
+        </div>
+    </footer>
+</body>
+</html>
