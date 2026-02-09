@@ -49,7 +49,7 @@ body {
 .lista-menu {
   display: flex;
   list-style: none;
-  gap: 15px;
+  gap: 10px;
 }
 
 .menu-navegacao a {
