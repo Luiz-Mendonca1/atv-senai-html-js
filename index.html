@@ -1,106 +1,119 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BattleFrogs | Mercenários e Magia</title>
+    <title>PetShop Amigo Fiel</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+
 </head>
+
+
 <body>
-    <header class="cabecalho">
-        <div class="conteudo">
-            <div class="logotipo">BATTLE<span>FROGS</span></div>
-            <button class="menu-toggle" aria-label="Abrir menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="menu-navegacao">
-                <ul class="lista-menu">
-                    <li><a href="#inicio">Contrato</a></li>
-                    <li><a href="#recursos">Mercenários</a></li>
-                    <li><a href="#depoimentos">Crônicas</a></li>
-                    <li><a href="#contato">Pombo-Correio</a></li>
-                </ul>
-            </nav>
-        </div>
+    
+    <header>
+        <h1>PetShop Amigo Fiel</h1>
+        <p>Cuidando do seu pet com carinho</p>
+        <a href="login.html"><img src="imagens/admin.png" alt="imagem do adm"></a>
     </header>
 
-    <section class="secao-principal" id="inicio">
-        <div class="conteudo">
-            <div class="texto-principal">
-                <h1>Lâminas e Encantos de Aluguel</h1>
-                <p>O pântano ruge. Contrate a elite dos anfíbios para missões.</p>
-                <button class="botao-destaque">Assinar Contrato</button>
-            </div>
-        </div>
+    <hr>
+
+    <nav>
+        
+        <ul>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+
+        </ul>
+        <p>
+            Veja mais detalhes
+        </p>
+    </nav>
+
+    <hr>
+
+
+    <section >
+        <h2>Serviços</h2>
+
+        <section  id="servicos">
+        <article class="itembox">
+            <h3>Banho e Tosa</h3>
+
+            
+            <img src="imagens/banho.png" alt="Serviço de banho e tosa">
+
+            <p>
+                Serviço completo de higiene para cães e gatos.
+            </p>
+
+            <p><strong>Valor:</strong> R$ 100,00</p>
+        </article>
+
+        <article class="itembox">
+            <h3>Consulta Veterinária</h3>
+            <img src="imagens/consulta.png" alt="Consulta veterinária">
+            <p>
+                Atendimento com profissionais especializados.
+            </p>
+            <p><strong>Valor:</strong> R$ 50,00</p>
+        </article>
+        </section>
     </section>
 
-    <section class="secao-recursos" id="recursos">
-        <div class="conteudo">
-            <h2>Grimório de Unidades</h2>
-            <div class="grade-recursos">
-                <div class="cartao-recurso">
-                    <img src="img/mage.jpg" alt="Mago">
-                    <h3>Mestre Arcano</h3>
-                    <p>Manipuladores do fluxo de mana elemental. Dizimam exércitos antes mesmo do primeiro salto.</p>
-                </div>
-                <div class="cartao-recurso">
-                    <img src="img/frogW.jpg" alt="Bestial">
-                    <h3>Vanguarda Bestial</h3>
-                    <p>Força bruta e resistência inabalável. O escudo vivo que protege o bando nos piores pântanos.</p>
-                </div>
-                <div class="cartao-recurso">
-                    <img src="img/shoter.jpg" alt="Atirador">
-                    <h3>Atirador Rugoso</h3>
-                    <p>Atiradores de precisão mística. Seus dardos nunca erram e o veneno é a última coisa que o inimigo sente.</p>
-                </div>
-                <div class="cartao-recurso">
-                    <img src="img/rei.jpg" alt="Mímico">
-                    <h3>Sombra Infiltrada</h3>
-                    <p>Mestres da enganação. Transmorfo ideal para sabotagens internas.</p>
-                </div>
-            </div>
-        </div>
+    <hr>
+
+    <section>
+        <h2>Produtos</h2>
+
+        <section id="servicos">
+        <article class="itembox">
+            <h3>Ração Premium</h3>
+            <img src="imagens/racao.png" alt="Ração para cães">
+            <p>
+                Ração nutritiva para todas as fases do seu pet.
+            </p>
+            <p><strong>Preço:</strong> R$ 150,00</p>
+        </article>
+
+        <article class="itembox">
+            <h3>Brinquedo para Pets</h3>
+            <img src="imagens/brinquedo.png" alt="Brinquedo para cachorro">
+            <p>
+                Ideal para diversão e bem-estar do seu pet.
+            </p>
+            <p><strong>Preço:</strong> R$ 25,00</p>
+        </article>
+        </section>
     </section>
 
-    <section class="secao-depoimentos" id="depoimentos">
-        <div class="conteudo">
-            <h2>Ecos das Vitórias</h2>
-            <div class="grade-depoimentos">
-                <div class="cartao-depoimento">
-                    <p>"Os Orcs colossais caíram perante o coaxar da morte. Ouro bem gasto."</p>
-                    <div class="nome-autor">- Rei João XI, Reino de Bragança</div>
-                </div>
-                <div class="cartao-depoimento">
-                    <p>"Nenhuma muralha de Ionia resistiu à infiltração desses mímicos."</p>
-                    <div class="nome-autor">- Rainha Maria IV, Vale de Arryn</div>
-                </div>
-                <div class="cartao-depoimento">
-                    <p>"Tivemos uma infestação de harfoots, graças ao sapos dilaçeramos eles."</p>
-                    <div class="nome-autor">- Joana D'arc IV, Imperio Franco</div>
-                </div>
-            </div>
-        </div>
+    <hr>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form>
+            <label>Nome:</label><br>
+            <input type="text"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+
+            <label>Mensagem:</label><br>
+            <textarea></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 
-    <section class="secao-contato" id="contato">
-        <div class="conteudo">
-            <h2>Convoque o Bando</h2>
-            <form class="formulario-contato">
-                <input type="text" placeholder="Nome do Lorde/Lady" required>
-                <input type="email" placeholder="Província de Origem" required>
-                <textarea placeholder="Detalhes da Missão (Recompensa em Ouro)" rows="5" required></textarea>
-                <button type="submit" class="botao-destaque">Enviar Pombo</button>
-            </form>
-        </div>
-    </section>
+    <hr>
 
-    <footer class="rodape">
-        <div class="conteudo">
-            <p>&copy; <span id="anoAtual"></span> Luiz Mendonça e João Lucas</p>
-        </div>
+    <footer>
+        <p>© 2026 - PetShop Amigo Fiel</p>
     </footer>
+
 </body>
 </html>

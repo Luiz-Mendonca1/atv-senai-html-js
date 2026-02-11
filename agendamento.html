@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento - PetShop Amigo Fiel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agendamento</h1>
+        <p>Agende o melhor cuidado para o seu pet.</p>
+        <a class="bt-home" href="index.html">Voltar</a>
+    </header>
+
+    <hr>
+
+    <main id="container" class="agend" >
+        
+        <section>
+            <h2 >Faça seu Agendamento</h2>
+            
+            <form action="#" method="post">
+                <label for="cliente">Nome do Tutor:</label>
+                <input type="text" id="cliente" name="cliente" placeholder="Seu nome completo" required>
+
+                <label for="pet">Nome do Pet:</label>
+                <input type="text" id="pet" name="pet" placeholder="Nome do pet" required>
+
+                <label for="servico">Tipo de Serviço:</label><br>
+                <select id="services" name="servico" >
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="banho">Banho e Tosa</option>
+                    <option value="veterinario">Consulta Veterinária</option>
+                    <option value="vacina">Vacinação</option>
+                    <option value="hospedagem">Hospedagem</option>
+                </select><br>
+
+                <label for="start">Select a start date:</label>
+                <input type="date" id="start" name="trip-start" />
+
+
+                <label for="obs">Observações:</label>
+                <textarea id="obs" name="obs" rows="4" placeholder="Alguma alergia ou cuidado especial?"></textarea>
+
+                <button class="bt-agenda" type="submit" >Agendar Horário</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 - PetShop Amigo Fiel. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,12 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PetShop Amigo Fiel</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
-    
+    <div>
+        <h1>Admin Page</h1>
+    </div>
+    <header>
+        <h1>PetShop Amigo Fiel</h1>
+        <p>Cuidando do seu pet com carinho</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        
+        <ul>
+            <li><a href="agendamento.html">Agendamento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+
+        </ul>
+        <p>
+            Veja mais detalhes
+        </p>
+    </nav>
+
+    <hr>
+
+
+    <section >
+        <h2>Serviços</h2>
+
+        <section  id="servicos">
+        <article class="itembox">
+            <h3>Banho e Tosa</h3>
+
+            
+            <img src="imagens/banho.png" alt="Serviço de banho e tosa">
+
+            <p>
+                Serviço completo de higiene para cães e gatos.
+            </p>
+
+            <p><strong>Valor:</strong> R$ 100,00</p>
+            <div class="edit">
+                <p id="add">Adicionar</p>
+                <p id="editar">Editar</p>
+                <p id="remove">Remover</p>
+            </div>
+        </article>
+
+        <article class="itembox">
+            <h3>Consulta Veterinária</h3>
+            <img src="imagens/consulta.png" alt="Consulta veterinária">
+            <p>
+                Atendimento com profissionais especializados.
+            </p>
+            <p><strong>Valor:</strong> R$ 50,00</p>
+            <div class="edit">
+                <p id="add">Adicionar</p>
+                <p id="editar">Editar</p>
+                <p id="remove">Remover</p>
+            </div>
+        </article>
+        </section>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Produtos</h2>
+
+        <section id="servicos">
+        <article class="itembox">
+            <h3>Ração Premium</h3>
+            <img src="imagens/racao.png" alt="Ração para cães">
+            <p>
+                Ração nutritiva para todas as fases do seu pet.
+            </p>
+            <p><strong>Preço:</strong> R$ 150,00</p>
+            <div class="edit">
+                <p id="add">Adicionar</p>
+                <p id="edit">Editar</p>
+                <p id="remove">Remover</p>
+            </div>
+        </article>
+
+        <article class="itembox">
+            <h3>Brinquedo para Pets</h3>
+            <img src="imagens/brinquedo.png" alt="Brinquedo para cachorro">
+            <p>
+                Ideal para diversão e bem-estar do seu pet.
+            </p>
+            <p><strong>Preço:</strong> R$ 25,00</p>
+            <div class="edit">
+                <p id="add">Adicionar</p>
+                <p id="edit">Editar</p>
+                <p id="remove">Remover</p>
+            </div>
+        </article>
+        </section>
+    </section>
+
+    <hr>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <form>
+            <label>Nome:</label><br>
+            <input type="text"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+
+            <label>Mensagem:</label><br>
+            <textarea></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 - PetShop Amigo Fiel</p>
+    </footer>
+
 </body>
 </html>
