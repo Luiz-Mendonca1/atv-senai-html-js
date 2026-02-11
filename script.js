@@ -1,18 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const menuToggle = document.querySelector('.menu-toggle');
-    const menuNavegacao = document.querySelector('.menu-navegacao');
-    
-    menuToggle.addEventListener('click', function() {
-        menuNavegacao.classList.toggle('ativo');
-        this.classList.toggle('ativo');
-    });
+function enviarFormulario() {
+    var email = document.getElementById("email").value;
+    var senha = document.getElementById("senha").value;
 
-    document.querySelectorAll('.lista-menu a').forEach(link => {
-        link.addEventListener('click', () => {
-            menuNavegacao.classList.remove('ativo');
-            menuToggle.classList.remove('ativo');
-        });
-    });
-
-    document.getElementById('anoAtual').textContent = new Date().getFullYear();
-});
+    if (email === "admin@admin.com" && senha === "admin123") {
+        window.location.href = "admin.html";
+    } else {
+        alert("Credenciais inválidas!");
+    }
+}
